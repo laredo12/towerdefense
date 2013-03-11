@@ -6,13 +6,8 @@ import org.andengine.engine.options.ScreenOrientation;
 import org.andengine.engine.options.resolutionpolicy.RatioResolutionPolicy;
 import org.andengine.entity.scene.Scene;
 import org.andengine.entity.scene.background.Background;
-import org.andengine.entity.scene.background.modifier.ColorBackgroundModifier;
 import org.andengine.ui.activity.BaseGameActivity;
 import org.andengine.util.color.Color;
-
-import android.os.Bundle;
-import android.app.Activity;
-import android.view.Menu;
 
 public class MainActivity extends BaseGameActivity {
 	final static int HEIGHT = 480;
@@ -50,5 +45,4 @@ public class MainActivity extends BaseGameActivity {
 		// TODO Auto-generated method stub
 
 	}
-
 }
