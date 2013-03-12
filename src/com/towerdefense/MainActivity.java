@@ -10,14 +10,14 @@ import org.andengine.ui.activity.BaseGameActivity;
 import org.andengine.util.color.Color;
 
 public class MainActivity extends BaseGameActivity {
+
 	final static int HEIGHT = 480;
 	final static int WIDTH = 800;
 	Camera camera = new Camera(0, 0, HEIGHT, WIDTH);
-
+	
 	@Override
 	public EngineOptions onCreateEngineOptions() {
 		// TODO Auto-generated method stub
-
 		EngineOptions options = new EngineOptions(true,
 				ScreenOrientation.LANDSCAPE_FIXED, new RatioResolutionPolicy(
 						WIDTH, HEIGHT), camera);
@@ -28,7 +28,7 @@ public class MainActivity extends BaseGameActivity {
 	public void onCreateResources(OnCreateResourcesCallback arg0)
 			throws Exception {
 		// TODO Auto-generated method stub
-		arg0.onCreateResourcesFinished();
+		arg0.onCreateResourcesFinished();	
 	}
 
 	@Override
