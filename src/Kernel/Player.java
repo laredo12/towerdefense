@@ -2,24 +2,13 @@ package Kernel;
 
 public class Player {
 	private String name;
-	private long battleGold;
-	private long campaignGold;
+	private long gems;
 	
-	public long getGold()
-	{
-		return this.battleGold + this.campaignGold;
+	public long getGems() {
+		return gems;
 	}
-	public long getBattleGold() {
-		return battleGold;
-	}
-	public void setBattleGold(long battleGold) {
-		this.battleGold = battleGold;
-	}
-	public long getCampaignGold() {
-		return campaignGold;
-	}
-	public void setCampaignGold(long campaignGold) {
-		this.campaignGold = campaignGold;
+	public void setGems(long gems) {
+		this.gems = gems;
 	}
 	public String getName() {
 		return name;
