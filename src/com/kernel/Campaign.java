@@ -1,4 +1,4 @@
-package Kernel;
+package com.kernel;
 
 import java.util.HashMap;
 

@@ -1,10 +1,10 @@
-package Kernel;
+package com.kernel;
 
 public class Hero {
 	private String name;
 	private String pathSprite;
 	
-	public void improve(Map actualMap)
+	public void upgrade(Map actualMap)
 	{
 		
 	}

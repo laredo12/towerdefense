@@ -1,4 +1,4 @@
-package Kernel;
+package com.kernel;
 
 public class Grinly extends Hero{
 	private int hp;
