@@ -4,9 +4,13 @@ public class Hero {
 	private String name;
 	private String pathSprite;
 	
+	public Hero()
+	{
+		//TODO
+	}
 	public void upgrade(Map actualMap)
 	{
-		
+		//TODO
 	}
 
 	public String getName() {

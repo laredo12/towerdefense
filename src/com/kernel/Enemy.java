@@ -51,7 +51,7 @@ public class Enemy {
 	{
 		
 	}
-	private void rotation()
+	private void rotate()
 	{
 		
 	}

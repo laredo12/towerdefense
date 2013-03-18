@@ -20,7 +20,7 @@ public class Tower {
 		//TODO
 		return attackSpeed;	
 	}
-	public void improveTower()
+	public void upgradeTower()
 	{
 		//TODO
 	}
