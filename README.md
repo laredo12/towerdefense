@@ -1,7 +1,8 @@
 Ring's Defense
 ====================================================
 
-1. Introduccion
+Introduccion
+==========================
 
 Ring's Defense es un juego estratégico, del tipo "Turret Defense". El juego consiste en
 
@@ -11,7 +12,8 @@ se irán colocando a lo largo del camino por el cual hordas de enemigos intentar
 
 hasta nuestra base para destruirla.
 
-2. Roles
+Roles
+==========================
 
 David Rodriguez - Jefe de proyecto
 
